@@ -1,9 +1,9 @@
-1. Students (referred to in your query as "patches" or "grow importer" context)
+1. Students 
 Why a separate table: It represents the core user entity. Storing student details separately avoids duplicating biographical data (names, emails) across every course enrollment or code submission.
 
 Primary Key: student_id (e.g., S0001) — unique platform-wide internal identifier.
 
-Foreign Keys: None (or a batch_id if referencing a distinct batches lookup table).
+Foreign Keys: None 
 
 Composite Keys: None required.
 
